@@ -1,0 +1,43 @@
+/* App.css */
+.player-container {
+  position: relative;
+  width: 100%;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.audio-controls {
+  width: 100%;
+  background-color: transprent;
+  border-radius: 8px;
+}
+
+.prev-btn,
+.next-btn,
+.play-pause-btn {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: .5rem;
+  margin: 0 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.seek-bar {
+  width: 50%;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.duration {
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #5c6bc0;
+}
